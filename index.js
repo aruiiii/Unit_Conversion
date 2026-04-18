@@ -14,9 +14,9 @@ covertBtn.addEventListener("click",function(){
     let feet = (parseFloat(inputEl.value) * mToF).toFixed(2);
     let gallons = (parseFloat(inputEl.value) * lToG).toFixed(2);
     let pounds = (parseFloat(inputEl.value) * kToP).toFixed(2);
-    lenght.innerHTML = "";
-    volume.innerHTML = "";
-    mass.innerHTML = "";
+    // lenght.innerHTML = "";
+    // volume.innerHTML = "";
+    // mass.innerHTML = "";
 
     lenght.innerHTML = `
             <h2>Length (Meter/Feet)</h2>
