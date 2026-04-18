@@ -19,17 +19,17 @@ covertBtn.addEventListener("click",function(){
     mass.innerHTML = "";
 
     lenght.innerHTML = `
-            <h2>Length (Meter / Feet)</h2>
+            <h2>Length (Meter/Feet)</h2>
             <p id = "ktop-p">${inputEl.value} kilos = ${feet} pounds | ${inputEl.value} pounds = ${meters} kilos</p>
         `;
 
     volume.innerHTML = `
-            <h2>Volume (Liters / Gallons)</h2>
+            <h2>Volume (Liters/Gallons)</h2>
             <p id = "ltog-p" >${inputEl.value} liters = ${gallons} gallons | ${inputEl.value} gallons = ${liters} liters</p>
         `;
 
     mass.innerHTML = `
-            <h2>Mass (Kilograms / pounds)</h2>
+            <h2>Mass (Kilograms/pounds)</h2>
             <p id = "ktop-p">${inputEl.value} kilos = ${pounds} pounds | ${inputEl.value} pounds = ${kilos} kilos</p>
         `;
 })
